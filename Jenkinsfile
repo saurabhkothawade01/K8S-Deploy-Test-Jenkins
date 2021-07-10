@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git') {
       steps {
-        echo 'hiii'
+        sh "kubectl get pods"
       }
     }
   }
